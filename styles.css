@@ -1,0 +1,71 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Header styles */
+header {
+  background-color: limegreen;
+  padding: 20px;
+  text-align: center;
+  color: #ddd;
+ margin-bottom: 10px;
+}
+hr {
+  color: #f2f2f2;
+  font-size: 30px;
+}
+header h1,
+header h2 {
+  margin: 0;
+  padding: 10px;
+}
+.fonts{font-family: 'Playfair Display', serif;}
+/* Payment method styles */
+.payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.payment-method {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.copy-button {
+  background-color: limegreen;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background-color: #32cd32;
+}
+
+/* Footer styles */
+footer {
+  background-color: limegreen;
+  text-align: center;
+  padding: 10px;
+  font-size: medium;
+}

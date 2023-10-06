@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="fonts">Welcome To Social Maestro Payment Gateway</h1>
+
+        <h2>Deposit Your Fund To Place Your Order</h2>
+      </header>
+
+      <section class="payment-methods">
+        <div class="payment-method">
+          <h2>Bkash</h2>
+          <p>
+            Personal: <span id="bkashNumber">01704258059</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('bkashNumber', this)"
+            >
+              Copy
+            </button>
+          </p>
+        </div>
+        <div class="payment-method">
+          <h2>Nagad</h2>
+          <p>
+            Personal: <span id="nagadNumber">01310846322</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('nagadNumber', this)"
+            >
+              Copy
+            </button>
+          </p>
+        </div>
+        <div class="payment-method">
+          <h2>Rocket</h2>
+          <p>
+            Personal: <span id="rocketNumber">013108463228</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('rocketNumber', this)"
+            >
+              Copy
+            </button>
+          </p>
+        </div>
+      </section>
+      <header>
+        <h2>For Wire/Bank Transfer Contact Us On Whtsapp or Inbox</h2>
+        <hr />
+        <hr />
+      </header>
+      <header>
+        <h1 class="fonts">International Payment Gateway</h1>
+      </header>
+
+      <section class="payment-methods">
+        <div class="payment-method">
+          <h2>Perfectmoney</h2>
+          <p>
+            <span id="perfectmoneyNumber">U43670252</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('perfectmoneyNumber', this)"
+            >
+              Copy
+            </button>
+          </p>
+        </div>
+        <div class="payment-method">
+          <h2>Binance Pay</h2>
+          <p>
+            Mail: <span id="binanceMail">andresirfanx@gmail.com</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('binanceMail', this)"
+            >
+              Copy
+            </button>
+          </p>
+          <p>
+            Pay ID: <span id="binancePayID">376043540</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('binancePayID', this)"
+            >
+              Copy
+            </button>
+          </p>
+        </div>
+        <div class="payment-method">
+          <h2>Payeer</h2>
+          <p>
+            <span id="payeerNumber">P1043384225</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('payeerNumber', this)"
+            >
+              Copy
+            </button>
+          </p>
+        </div>
+        <div class="payment-method">
+          <h2>Cryptocurrency (USDT)</h2>
+          <p>
+            (TRC20):
+            <span id="cryptoTRC20">TKHdVcoxnyobsR4uJcxrGrpYjXBgLu3aM5</span>
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('cryptoTRC20', this)"
+            >
+              Copy
+            </button>
+          </p>
+          <p>
+            (BEP20):
+            <span id="cryptoBEP20"
+              >0x26f9699fb2160b2d7a6c57c0872a38b60a71223b</span
+            >
+            <button
+              class="copy-button"
+              onclick="copyToClipboard('cryptoBEP20', this)"
+            >
+              Copy
+            </button>
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <p>Contact: WhatsApp +8801310846322</p>
+        <p id="copiedMessage" style="display: none; color: limegreen"></p>
+        <p>&copy; 2023 Social Maestro</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
