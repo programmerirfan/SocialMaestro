@@ -19,11 +19,11 @@ header {
   background-color: limegreen;
   padding: 20px;
   text-align: center;
-  color: #ddd;
+  color: white;
  margin-bottom: 10px;
 }
 hr {
-  color: #f2f2f2;
+  color: white;
   font-size: 30px;
 }
 header h1,
